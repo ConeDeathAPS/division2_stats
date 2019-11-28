@@ -1,4 +1,4 @@
-import './styles/variables.styl';
+import './styles/main.styl';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';

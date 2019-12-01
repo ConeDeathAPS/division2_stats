@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './weaponTile.styl';
+import './weapon.styl';
 
-class WeaponTile extends Component {
+class Weapon extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -15,4 +15,4 @@ class WeaponTile extends Component {
 		);
 	}
 }
-export default WeaponTile;
+export default Weapon;

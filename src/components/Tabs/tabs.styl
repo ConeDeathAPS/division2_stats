@@ -1,0 +1,32 @@
+@import '../../styles/variables.styl';
+
+#tabs
+	width: 100%
+	display: flex
+	flex-direction: column
+	justify-content: start
+	align-content: stretch
+	align-items: stretch
+	#tabHeaders
+		width: 100%
+		display: flex
+		flex-direction: row
+		justify-content: center
+		align-items: stretch
+		align-content: stretch
+		flex-wrap: nowrap
+		border-bottom: 1px solid warm_white
+		a.tabHeader
+			display: flex
+			flex-direction: row
+			justify-content: center
+			align-items: center
+			align-content: center
+			padding: 14px 21px
+			margin-bottom: -1px
+			border-bottom: 1px solid warm_white
+			color: warm_white
+			&:hover
+				color: division_orange
+			&.active
+				border-bottom: 2px solid division_orange
